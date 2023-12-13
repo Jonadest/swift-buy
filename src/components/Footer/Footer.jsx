@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import "../Footer/footer.css";
 
 const Footer = ()=>{
@@ -7,11 +7,15 @@ const Footer = ()=>{
         <div className="container-fuild">
   <div className="py-5  footer">
     <ul className="nav justify-content-center  pb-3 mb-3">
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Home</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Foods</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Snacks</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Drinks</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
+      <li className="nav-item"><Link to="/home" className="nav-link px-2 text-body-secondary">Home</Link></li>
+
+      <li className="nav-item"><Link to="/foods" className="nav-link px-2 text-body-secondary">Foods</Link></li>
+
+      <li className="nav-item"><Link to="/snacks" className="nav-link px-2 text-body-secondary">Snacks</Link></li>
+
+      <li className="nav-item"><Link to="/drinks" className="nav-link px-2 text-body-secondary">Drinks</Link></li>
+
+      <li className="nav-item"><Link to="/about" className="nav-link px-2 text-body-secondary">About</Link></li>
     </ul> 
 
     

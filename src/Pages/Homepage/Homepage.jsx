@@ -1,8 +1,8 @@
-import Carousel from "../Carousel/Carousel";
-import Search from "../Search/Search";
-import "../Hero/hero.css";
+import Carousel from "../../components/Carousel/Carousel";
+import Search from "../../components/Search/Search";
+import "./homepage.css";
 
-const Hero = ()=>{
+const Homepage = ()=>{
     return(
         <div className="container col-xxl-8 px-4">
     <div className="d-lg-flex align-items-center">
@@ -37,4 +37,4 @@ const Hero = ()=>{
     )
 }
 
-export default Hero;
+export default Homepage;

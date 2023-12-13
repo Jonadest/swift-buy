@@ -1,11 +1,11 @@
-import Food from "../components/Foods/Foods";
-import Hero from "../components/Hero/Hero";
+import Features from "../components/Features/Features";
+import Hero from "./Homepage/Homepage";
 
 const Homepage = ()=>{
     return(
         <div>
     <Hero />
-    <Food />
+    <Features />
     
     </div>
        

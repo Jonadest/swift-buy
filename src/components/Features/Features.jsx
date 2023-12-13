@@ -1,5 +1,5 @@
-import "../Foods/food.css";
-const Food = ()=>{
+import "./food.css";
+const Features = ()=>{
     return(
         <div className="collections col-sm-12 col-lg-12">
             <div className="items text-center ">
@@ -24,4 +24,4 @@ const Food = ()=>{
     )
 }
 
-export default Food;
+export default Features;
