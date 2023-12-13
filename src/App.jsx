@@ -1,4 +1,4 @@
-import Homepage from "./Pages/Homepage";
+import Homepage from "./Pages/Homepage/Homepage";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { Route, Routes} from 'react-router-dom';
@@ -11,7 +11,7 @@ import Drinks from "./Pages/Drinks/Drinks";
 
 
 const App = ()=>{
- 
+  
   return(
     <div className="container-fluid p-0">
       <Header />
