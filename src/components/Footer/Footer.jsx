@@ -7,7 +7,7 @@ const Footer = ()=>{
         <div className="container-fuild">
   <div className="py-5  footer">
     <ul className="nav justify-content-center  pb-3 mb-3">
-      <li className="nav-item"><Link to="/home" className="nav-link px-2 text-body-secondary">Home</Link></li>
+      <li className="nav-item"><Link to="/" className="nav-link px-2 text-body-secondary">Home</Link></li>
 
       <li className="nav-item"><Link to="/foods" className="nav-link px-2 text-body-secondary">Foods</Link></li>
 

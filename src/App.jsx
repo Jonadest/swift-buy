@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import Snacks from "./Pages/Snacks/Snacks";
 import Cart from "./Pages/Cart/Cart";
 import Drinks from "./Pages/Drinks/Drinks";
+import Signup from "./Pages/Login Signup/Signup";
 
 
 const App = ()=>{
@@ -17,8 +18,9 @@ const App = ()=>{
       <Header />
       
         <Routes>
-          <Route path="/home" element = {<Homepage/>}/>
+          <Route path="/" element = {<Homepage/>}/>
           <Route path="/login" element = {<Login/>}/>
+          <Route path="/signup" element = {<Signup/>}/>
           <Route path="/about" element = {<About/>}/>
           <Route path="/foods" element = {<Foods/>}/>
           <Route path="/snacks" element = {<Snacks/>}/>

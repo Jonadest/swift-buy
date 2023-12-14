@@ -6,7 +6,7 @@ const Menu = ()=>{
     return(
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
+          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         
         <li className="nav-item">
@@ -30,7 +30,7 @@ const Menu = ()=>{
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link" to="/login"><i class="fa-solid fa-user"></i></Link>
+          <Link className="nav-link" to="/login"><i class="fa-solid fa-right-to-bracket"></i></Link>
         </li>
 
         <li className="nav-item">

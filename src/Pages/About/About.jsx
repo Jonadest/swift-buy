@@ -1,6 +1,9 @@
+import "../About/about.css";
 const About = ()=>{
     return(
-        <h1 className="text-center">This is About</h1>
+       <div className="swift-page">
+         <h1 className="text-center">This is About</h1>
+       </div>
     )
 }
 
