@@ -6,6 +6,12 @@
     color: orange;
 }
 
-.navbar-nav .nav-item .nav-link.active {
-    color: orange;
+
+.nav-item.active .nav-link,
+.nav-link.active {
+  color: orange;
+}
+
+a{
+    text-decoration: none;
 }

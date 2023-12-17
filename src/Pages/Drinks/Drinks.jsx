@@ -1,7 +1,11 @@
+import DrinksItems from "../../components/Items/DrinksItems";
+
+
 const Drinks = ()=>{
     return(
-       <div className="swift-page">
-         <h1 className="text-center">Drinks Page</h1>
+       <div>
+         <h1 className="text-center h1-titles">Chill Drinks</h1>
+         <DrinksItems/>
        </div>
     )
 }

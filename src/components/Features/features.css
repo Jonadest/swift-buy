@@ -4,11 +4,21 @@
     font-size: 18px;
 }
 
+ a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 .items{
 width: 250px;
 }
 
-
+.aa{
+    text-decoration: none;
+    color: red;
+    
+}
 
 
 .foods img{

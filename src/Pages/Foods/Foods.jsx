@@ -1,11 +1,17 @@
-import "./foods.css";
+import FoodItems from "../../components/Items/FoodItems";
+
+
 
 
 const  Foods = ()=> {
   return(
-    <div className='text-center login'>
-    <h1>Food is Here</h1>
-    </div>
+    
+     <div>
+       <h1 className="text-center h1-titles">Yummy Foods</h1>
+     <FoodItems/>
+     <FoodItems/>
+     </div>
+    
   )
 }
 

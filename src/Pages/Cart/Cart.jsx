@@ -1,7 +1,7 @@
 const Cart = ()=>{
     return(
-        <div className="swift-page">
-            <h1 className="text-center">Cart Page</h1>
+        <div>
+            <h1>Cart</h1>
         </div>
     )
 }

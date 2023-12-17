@@ -9,27 +9,40 @@ import Snacks from "./Pages/Snacks/Snacks";
 import Cart from "./Pages/Cart/Cart";
 import Drinks from "./Pages/Drinks/Drinks";
 import Signup from "./Pages/Login Signup/Signup";
+import "./App.css";
 
 
 const App = ()=>{
   
   return(
     <div className="container-fluid p-0">
-      <Header />
-      
-        <Routes>
+       <Header />
+      <Routes>
           <Route path="/" element = {<Homepage/>}/>
+
           <Route path="/login" element = {<Login/>}/>
+
           <Route path="/signup" element = {<Signup/>}/>
+
           <Route path="/about" element = {<About/>}/>
+
           <Route path="/foods" element = {<Foods/>}/>
+
           <Route path="/snacks" element = {<Snacks/>}/>
+
           <Route path="/cart" element = {<Cart/>}/>
+          
           <Route path="/drinks" element = {<Drinks/>}/>
           
           
         </Routes>
+
+     
+      
+       
         <Footer/>
+
+        
       </div>
   
   )
