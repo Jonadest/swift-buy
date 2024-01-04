@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b frontend -d dist",
     "clean": "gh-pages-clean",
     "dev": "npx vite --host 192.168.43.62",
     "build": "vite build",
